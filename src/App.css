@@ -1,0 +1,475 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+
+
+.dal{
+   display: flex;
+  flex-direction: column;
+  align-items: center; 
+  text-align: center;
+  margin-top: 50px;
+
+}
+.face{
+  margin-top: 80px;
+  }
+
+  .place{
+      width: 400px;
+    height: 50px;
+     margin-top:60px ;
+
+border-radius: 8px;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+background-color: #ddd8d8;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.351);
+
+    text-align: center;
+    }
+
+    
+    .nme{
+  height:40px ;
+  width: 380px;
+
+  background:transparent ;
+  border: none;
+  outline: none;
+  color: #797979;
+  font-weight: bold;
+  font-size: 15px;
+  color: black;
+ }
+
+ .nme::placeholder{
+  color: #282c34;
+ }
+
+  .pls{
+ height: 50px;
+      width: 400px;
+     margin-top:30px ;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+      border: 2px solid rgba(255, 255, 255, 0.6);
+background-color: #ddd8d8;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.3);
+    }
+
+   
+
+     .pass{
+   height:40px ;
+  width: 380px;
+  background:transparent ;
+  border: none;
+  outline: none;
+  color: #797979;
+  font-weight: bold;
+  font-size: 15px;
+  color: black;
+ }
+
+  .pass::placeholder{
+        color: #282c34;
+    }
+
+    .Forgotpasw{
+      color: darkblue;
+     font-weight: 600;
+     cursor:pointer;
+    }
+
+ .but{
+  margin-top: 70px;
+ 
+  width: 400px;
+  height: 40px;
+  background-color: rgb(23, 96, 193);
+  color:white;
+  border-radius: 100px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size:20px ;
+  transition: background-color 0.5 ease;
+ }  
+ 
+ .but:hover{
+  background-color: rgb(151, 192, 207);
+ }
+ 
+.onclk{
+  font-size: larger;
+  font-weight: 500;
+}
+
+
+ .onclk:hover{
+  color: #2585fb;
+  cursor: pointer;
+ }
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+ .signdiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh; 
+  background-image: url('./image.png'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+
+  }
+ 
+ 
+
+.plshold{
+  background: transparent;
+  border-bottom:solid ;
+  font-weight: bold;
+  font-size: medium;
+  color: black;
+  text-align: center;
+  background-color: #bebcbc;
+  background: transparent;
+  
+}
+.plshold::placeholder{
+color: black; 
+}
+ .d2{
+  border-bottom:solid ;
+  font-weight: bold;
+  font-size: medium;
+  color: black;
+  text-align: center;
+  background-color: #bebcbc;
+   background: transparent;
+  
+ }
+
+ .d3{
+   
+   border-bottom:solid ;
+  font-weight: bold;
+  font-size: medium;
+  color: black;
+  text-align: center;
+  background: transparent;
+ }
+.d3::placeholder{
+color: black;
+}
+
+
+ .d4{
+  border-bottom:solid ;
+  font-weight: bold;
+  font-size: medium;
+  color: black;
+  text-align: center;
+  background: transparent;
+ 
+ }
+.d4::placeholder{
+  color: black;
+}
+
+
+ .d5{
+  
+  
+  border-bottom:solid ;
+  font-weight: bold;
+  font-size: medium;
+  color: black;
+  text-align: center;
+  background: transparent;
+  
+ }
+.d5::placeholder{
+  color: black;
+}
+
+
+ .d6{
+  
+  border-bottom:solid ;
+  font-weight: bold;
+  font-size: medium;
+  color: black;
+  text-align: center;
+  background: transparent;
+   
+ }
+.d6::placeholder{
+color: black;
+}
+
+
+  .d7{
+ 
+  background-color: rgb(103, 209, 251);
+  border-radius: 60px;
+  font-size: medium;
+  font-weight: bold;
+  cursor: pointer;
+ }
+
+.d7:hover{
+background-color:rgb(187, 218, 231) ;
+}
+
+ .bld{
+  padding: 10px;
+  font-size: larger;
+  font-weight: bold;
+  border-bottom:'2px solid black';
+  cursor: pointer;
+
+  
+}
+
+.bld:hover {
+color:red;
+
+}
+
+.Forgotpage-div {
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Forgotpas-button{
+  margin-top: 2%;
+  margin-right: 95%;
+  cursor: pointer;
+  padding:3px 10px ;
+  font-size: 28px;
+ border: none;
+border-radius: 3px;
+}
+
+.Forgotpas-button:hover{
+
+ background-color:rgb(4, 4, 37);
+   border: 2px solid #232323; 
+}
+
+
+.forgotdiv{
+  background-color:rgb(4, 4, 37); 
+  padding: 50px;
+padding-bottom: 60px;
+border-radius:9%;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+
+.forgth1{
+ color: #fff;
+   background: rgba(255, 255, 255, 0.15); 
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  padding: 10px 30px;
+ border-radius: 10px;
+
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: #fff;
+  outline: none;
+   box-shadow: 0 4px 20px rgba(250, 248, 248, 0.3);
+
+}
+
+.forgotinput{
+  margin-top: 50px;
+
+  background: rgba(255, 255, 255, 0.15); 
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+
+padding: 20px 35px;
+
+border-radius: 10px;
+
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: #fff;
+  outline: none;
+   
+}
+
+.forgotinput:hover{
+box-shadow: 0 4px 20px rgba(250, 248, 248, 0.3);
+}
+
+
+.finput{
+  padding: 20px;
+  font-weight: bold;
+  font-size: medium;
+  color: #fff;
+  }
+
+  .finput::placeholder{
+    color: #fff;
+  }
+
+  .finput{
+    background: transparent;
+    border:none;
+    outline: none;
+
+  }
+  .finput:active{
+    background: transparent;
+    border:none; 
+     outline: none;
+  }
+.forgotbut{
+  margin-top: 60px;
+  padding: 10px 20px;
+
+    background: rgba(255, 255, 255, 0.15); 
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+
+  border-radius: 10px;
+
+  border: 1px solid rgba(255, 255, 255, 0.25);
+ 
+  color: #fff;
+  outline: none;
+   
+}
+
+.forgotbut:hover{
+ box-shadow: 0 4px 20px rgba(250, 248, 248, 0.3);
+}
+
+.fbutton{
+  padding: 15px 125px;
+  cursor: pointer;
+   border-radius: 100px;
+   background-color: #7282a3;
+   color: #fff;
+   font-weight:bold;
+   font-size:medium;
+   border: none;
+}
+.fbutton:active{
+  background-color: #fff;
+  color: #051a33;
+}
+
+
+.resetpasworddiv{
+  display: flex;
+  flex-direction: column;
+align-items: center;
+margin-top: 10%;
+}
+
+.seconddiv{
+ background-color:rgb(4, 4, 37);
+ border-radius: 7%;
+ padding: 80px;
+
+}
+
+h1{
+ color: #fff;
+ margin-top: 0%;
+
+   background: rgba(244, 241, 241, 0.212); 
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  padding:10px 20px;
+  border-radius: 10px;
+  
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0 9px 9px #fff
+}
+
+.resetinputdiv{
+  align-items: center;
+  margin-top: 40px;
+  padding: 25px  50px;
+  background: #e2e2e232;
+   backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+
+  border-radius: 15px;
+   box-shadow: 0 9px 9px #fff;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+
+}
+
+.resetinput{
+background: transparent;
+font-size: medium;
+font-weight: bold;
+color: #fff;
+border: none;
+outline: none;
+}
+.resetinput:active{
+  border: none;
+  outline: none;
+}
+.resetinput::placeholder{
+  color: #fff;
+}
+
+.resetbutton{
+  margin-top: 40px;
+  padding: 15px  12px;
+  background: #cacacb42;
+  border-radius: 15px;
+ 
+   box-shadow: 0 9px 9px #fff;
+      border: 1px solid rgba(255, 255, 255, 0.25);
+   }
+   button{
+     cursor: pointer;
+    padding: 10px  120px;
+    border-radius: 20px;
+    border: none;background-color: #040230;
+    color: #fff;
+    font-size: medium;
+    font-weight: bold;
+}
+
+button:hover{
+  background-color: #a6a5a5;
+  color: black;
+}
+
+.resetp{
+  border-bottom:2px solid rgb(78, 71, 211);
+  font-weight: bold;
+  cursor: pointer;
+  }
+  .resetp:active{
+font-size: large;
+color: rgb(222, 59, 59);
+
+  }
+
+
