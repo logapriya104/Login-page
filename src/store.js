@@ -1,11 +1,12 @@
-import { createStore } from "redux";
 
-const initialState = {
-    myValue: "Hello, this is stored in redux"
-};
+// import { createStore } from "redux";
 
-function reducer(state = initialState, action) {
-    return state;
-}
+// const initialState = {
+//     myValue: "Hello, this is stored in redux"
+// };
 
-export const store = createStore(reducer);
+// function reducer(state = initialState, action) {
+//     return state;
+// }
+// const store = createStore(reducer);
+// export default store;

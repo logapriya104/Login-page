@@ -1,5 +1,6 @@
 
-import { useSelector } from "react-redux";
+
+
 
 function Welcomepage(){
 
@@ -12,4 +13,5 @@ function Welcomepage(){
         </div>
     );
 }
+
 export default Welcomepage;

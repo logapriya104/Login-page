@@ -1,3 +1,4 @@
+
 import React from "react";
 import './App.css'
 import { useNavigate } from "react-router-dom";
@@ -14,8 +15,6 @@ const setFunction =(e)=> {e.preventDefault();
 navigate("/Resetpaswd")
     }
 }
-
-
 
 return(
 <div className="Forgotpage-div ">

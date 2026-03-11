@@ -1,8 +1,8 @@
+
 import React from "react";
 import { useState } from "react";
 import './App.css'
 import image from './facebook.png'
-import { useSelector } from "react-redux";
 import {  useNavigate } from "react-router-dom";
 
 
@@ -10,7 +10,7 @@ import {  useNavigate } from "react-router-dom";
 function Dashpage(){
   console.log("logapriya")
 
-  const valuem = useSelector((state) => state.valuem);
+  // const valuem = useSelector((state) => state.valuem);
   
 const paswd = localStorage.getItem("password");
 
@@ -80,7 +80,7 @@ return(
  
   <form onSubmit={addCustomer} className="dal">
     
-<img src={image} alt="facebook" height='100-px' className="face" /> <br />
+<img src={image} alt="facebook" height='100' className="face" /> <br />
 
 <div className="place">
       <input type="text" value={name} onChange={(e) =>{setValue(e.target.value); setGet(''); setUser('')   }}
@@ -108,4 +108,5 @@ return(
 }
 
 export default Dashpage;
+
 

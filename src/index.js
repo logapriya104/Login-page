@@ -1,17 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import App from './App';
 import './index.css';
-  import App from './App';
+import { Provider } from "react-redux";
+import Facebkstore from "./Facebkstore";
 // import Loga from "./Loga"
 // import App1 from './App1';
 
 // import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <Provider store={Facebkstore}>
+      <App />
+  </Provider>
 );
 
 // If you want to start measuring performance in your app, pass a function

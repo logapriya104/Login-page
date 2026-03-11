@@ -1,45 +1,34 @@
-
 import React from "react";
-import { BrowserRouter as Router, Route,Routes,Link } from "react-router-dom";
+import { HashRouter, Routes, Route, Link } from "react-router-dom";
 
-import Navi from './Navi';
-import Dashpage from './Facebkpage'
-import Welcomepage from "./Welcomepage";
-import Facebkstore from "./Facebkstore";
+import Dashpage from "./Facebkpage";
+import Nav from "./Navi";
 import Forgotpassw from "./Forgotpassw";
 import Resetpaswd from "./Resetpaswd";
+import Welcomepage from "./Welcomepage";
 
-import { Provider } from "react-redux";
+function App() {
+  return (
+    <HashRouter>
 
-function Work(){
-   
-return(
-   <Router>
-      <Link to="/"> </Link>
-   <Link to="Navi"> </Link>
-   <Link to="Welcomepage"> </Link>
-   <Link to="Forgotpassw"> </Link>
-   <Link to="Resetpaswd"> </Link>
+      <nav>
+        <Link to="/">Login</Link> | 
+        <Link to="/Navi">Sign Up</Link> | 
+        <Link to="/Forgotpassw">Forgot</Link> | 
+        <Link to="/Resetpaswd">Reset</Link> | 
+        <Link to="/Welcomepage">Welcome</Link>
+      </nav>
 
-<Routes>
-  
-   <Route path ="/" element ={<Dashpage />} />
-   <Route path="Navi" element ={<Navi />}/>
-   <Route path="Welcomepage" element ={<Welcomepage />}/>
-   <Route path="Forgotpassw" element={<Forgotpassw />} />
-   <Route path="Resetpaswd" element={<Resetpaswd />}/>
-   </Routes>
-   </Router>
-)
+      <Routes>
+        <Route path="/" element={<Dashpage />} />
+        <Route path="/Navi" element={<Nav />} />
+        <Route path="/Forgotpassw" element={<Forgotpassw />} />
+        <Route path="/Resetpaswd" element={<Resetpaswd />} />
+        <Route path="/Welcomepage" element={<Welcomepage />} />
+      </Routes>
 
+    </HashRouter>
+  );
 }
 
-export default function App(){
-return(
-<Provider store ={Facebkstore}>
-<Work />
-</Provider>
-);
-}
-
-
+export default App;

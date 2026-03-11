@@ -1,3 +1,4 @@
+
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 
@@ -57,5 +58,4 @@ onClick={()=>navigate("/")}>Go to the Login page</p>
 </div>
 );
 }
-
 export default Resetpaswd;
