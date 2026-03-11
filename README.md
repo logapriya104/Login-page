@@ -36,18 +36,19 @@ This project includes Sign Up, Login, Forgot Password, and Reset Password pages 
 
 ---
 
-## 📂 Project Structure
+ 📂 Project Structure
 
 src
-│
-├── Facebkpage.js
-├── Navi.js 
-├── Forgotpassw.js 
-├── Resetpaswd.js 
-├── Welcomepage.js 
-├── Facebkstore.js 
-├── App.js 
-└── index.js 
+├── pages
+│   ├── Facebkpage.js     
+│   ├── Navi.js            
+│   ├── Forgotpassw.js     
+│   ├── Resetpaswd.js     
+│   └── Welcomepage.js      
+├── store
+│   └── Facebkstore.js     
+├── App.js                
+└── index.js               
 ---
 
 ## ⚙️ Installation
